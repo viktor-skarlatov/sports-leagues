@@ -9,7 +9,6 @@ import {
   Typography,
 } from '@mui/material'
 import { SoccerLeaguesList } from './components/SoccerLeaguesList'
-import './App.css'
 import { ListSkeleton } from './components/ListSkeleton'
 import { ALL_SPORTS, SPORTS, useApp } from './hooks/useApp';
 
