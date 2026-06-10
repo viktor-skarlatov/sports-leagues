@@ -4,6 +4,11 @@ A small React + TypeScript single-page app that lists sports leagues from
 [TheSportsDB](https://www.thesportsdb.com/), lets you filter them client-side,
 and shows a league's badge in a modal. Built with Vite, MUI, and TanStack Query.
 
+## AI Tools
+
+Used Claude Code for the implementation. All generated code has been
+thoroughly reviewed.
+
 ## Tech stack
 
 | Concern            | Choice                          |
