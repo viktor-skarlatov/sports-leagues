@@ -26,7 +26,7 @@ export function useApp() {
       const lowercaseSport = sport.toLowerCase();
       const matchesSport = lowercaseSport === ALL_SPORTS || league.strSport.toLowerCase() === lowercaseSport;
       const matchesSearch =
-        query === '' || league.strLeague.toLowerCase().includes(query);
+        query === '' || league.strLeague.toLowerCase().includes(query) || league.strLeagueAlternate?.toLowerCase().includes(query);
       return matchesSport && matchesSearch;
     });
   }, [leagues, sport, search]);
